@@ -1,0 +1,6 @@
+{
+  "slug": "first-post",
+  "title": "My First Blog Post",
+  "date": "2025-08-01",
+  "content": "# Welcome to My Blog\n\nThis is the content of my **first** post. Written in markdown-style text.\n\n## Features\n\n- **Bold text** for emphasis\n- *Italic text* for subtle emphasis\n- `Code snippets` for technical content\n- [Links](https://example.com) for references\n\n### Code Example\n\n```javascript\nfunction greet(name) {\n  return `Hello, ${name}!`;\n}\n```\n\n> This is a blockquote to highlight important information.\n\n## Lists\n\n1. First item\n2. Second item\n3. Third item\n\n- Unordered list item\n- Another item\n- And another\n\n---\n\n*Thanks for reading!*"
+}

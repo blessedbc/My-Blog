@@ -1,0 +1,6 @@
+{
+  "slug": "getting-started-with-nextjs",
+  "title": "Getting Started with Next.js",
+  "date": "2025-01-15",
+  "content": "# Getting Started with Next.js\n\nNext.js is a powerful React framework that makes building full-stack web applications simple and efficient.\n\n## Why Next.js?\n\n- **Server-Side Rendering (SSR)** for better SEO\n- **Static Site Generation (SSG)** for blazing fast performance\n- **API Routes** for backend functionality\n- **File-based routing** for intuitive navigation\n\n## Quick Start\n\n```bash\nnpx create-next-app@latest my-app\ncd my-app\nnpm run dev\n```\n\n### Key Features\n\n1. **Automatic Code Splitting**\n2. **Hot Reloading**\n3. **TypeScript Support**\n4. **Built-in CSS Support**\n\n> **Pro Tip**: Use the `app` directory for the latest Next.js 13+ features!\n\n## Example Component\n\n```jsx\nimport { useState } from 'react';\n\nexport default function Counter() {\n  const [count, setCount] = useState(0);\n  \n  return (\n    <div>\n      <p>Count: {count}</p>\n      <button onClick={() => setCount(count + 1)}>\n        Increment\n      </button>\n    </div>\n  );\n}\n```\n\n---\n\n*Ready to build something amazing? Start with Next.js today!*"
+} 
