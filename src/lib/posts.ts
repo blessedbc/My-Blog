@@ -13,7 +13,6 @@ export function getAllPosts(): Post[] {
       const filePath = path.join(postsDirectory, fileName);
       const fileContents = fs.readFileSync(filePath, 'utf8');
       const post = JSON.parse(fileContents);
-      
       return {
         slug: post.slug,
         title: post.title,
