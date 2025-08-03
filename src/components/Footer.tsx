@@ -12,7 +12,7 @@ export default function Footer() {
             </div>
             <p className="text-gray-600 mb-4 max-w-md">
               A personal blog about web development, programming, and technology. 
-              Sharing knowledge and experiences in the ever-evolving world of software development.
+              Sharing knowledge and experiences in the ever-evolving world of Technology.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-blue-600 transition-colors">
