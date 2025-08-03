@@ -5,12 +5,13 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { getPostBySlug } from '@/lib/posts';
 
-type Props = {
-  params: { slug: string };
-};
+interface Props {
+  params: Promise<{ slug: string }>;
+}
 
-export default function PostPage({ params }: Props) {
-  const post = getPostBySlug(params.slug);
+export default async function PostPage({ params }: Props) {
+  const { slug } = await params;
+  const post = getPostBySlug(slug);
 
   if (!post) {
     return notFound();

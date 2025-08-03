@@ -1,20 +1,20 @@
 import { getAllPosts, getPostBySlug, getAllPostSlugs } from '../posts'
 
 // Mock fs module
-jest.mock('fs', () => ({
+const mockFs = {
   readdirSync: jest.fn(),
   readFileSync: jest.fn(),
   existsSync: jest.fn(),
-}))
+}
 
 // Mock path module
-jest.mock('path', () => ({
+const mockPath = {
   join: jest.fn(),
   cwd: jest.fn(() => '/mock/cwd'),
-}))
+}
 
-const mockFs = require('fs')
-const mockPath = require('path')
+jest.mock('fs', () => mockFs)
+jest.mock('path', () => mockPath)
 
 describe('posts utilities', () => {
   beforeEach(() => {
