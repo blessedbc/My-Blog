@@ -18,8 +18,7 @@ export default function Home() {
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Exploring web development, programming, and technology through thoughtful articles and tutorials.
           </p>
-        </div>
-        
+        </div>        
         <div className="mb-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">
             Latest Posts
