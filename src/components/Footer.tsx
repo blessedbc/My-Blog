@@ -91,8 +91,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-        </div>
-        
+        </div>        
         <div className="mt-8 pt-8 border-t border-gray-200">
           <p className="text-center text-gray-500 text-sm">
             © 2025 My Blog. All rights reserved.
