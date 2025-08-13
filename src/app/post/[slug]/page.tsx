@@ -61,7 +61,6 @@ export default async function PostPage({ params }: Props) {
           </div>
         </article>
       </main>
-      
       <Footer />
     </div>
   );
