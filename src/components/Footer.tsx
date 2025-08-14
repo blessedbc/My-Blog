@@ -40,8 +40,7 @@ export default function Footer() {
              </svg>
               </a>
             </div>
-          </div>
-          
+          </div>          
           <div>
             <h3 className="text-sm font-semibold text-gray-900 tracking-wider uppercase mb-4">
               Categories
@@ -68,8 +67,7 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-          </div>
-          
+          </div>          
           <div>
             <h3 className="text-sm font-semibold text-gray-900 tracking-wider uppercase mb-4">
               Quick Links
