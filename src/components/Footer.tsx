@@ -16,6 +16,51 @@ export default function Footer() {
               A personal blog about web development, programming, and technology. 
               Sharing knowledge and experiences in the ever-evolving world of Technology.
             </p>
+            <div className="flex space-x-4">
+      {/* Twitter */}
+      <a
+        href="https://twitter.com/blessedbc11"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-gray-400 hover:text-blue-600 transition-colors"
+      >
+        <span className="sr-only">Twitter</span>
+        <FaTwitter className="w-6 h-6" />
+      </a>
+
+      {/* GitHub */}
+      <a
+        href="https://github.com/blessedbc"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-gray-400 hover:text-blue-600 transition-colors"
+      >
+        <span className="sr-only">GitHub</span>
+        <FaGithub className="w-6 h-6" />
+      </a>
+
+      {/* LinkedIn */}
+      <a
+        href="https://www.linkedin.com/in/ikenna-nwaka-bb2a27328"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-gray-400 hover:text-blue-600 transition-colors"
+      >
+        <span className="sr-only">LinkedIn</span>
+        <FaLinkedin className="w-6 h-6" />
+      </a>
+
+      {/* Reddit */}
+      <a
+        href="https://www.reddit.com/user/No_Weekend5948"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-gray-400 hover:text-blue-600 transition-colors"
+      >
+        <span className="sr-only">Reddit</span>
+        <FaReddit className="w-6 h-6" />
+      </a>
+    </div>
           </div>          
           <div>
             <h3 className="text-sm font-semibold text-gray-900 tracking-wider uppercase mb-4">
