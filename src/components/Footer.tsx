@@ -95,10 +95,10 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
-                  About
-                </a>
-              </li>
+               <a href="/about" className="text-gray-600 hover:text-blue-600 transition-colors">
+                 
+               </a>
+             </li>
               <li>
                 <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
                   Contact
