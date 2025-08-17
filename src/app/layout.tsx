@@ -31,25 +31,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <nav
-          style={{
-            position: "fixed",
-            top: 0,
-            left: 0,
-            width: "100%",
-            background: "#fff",
-            zIndex: 100,
-            borderBottom: "1px solid #eee",
-            padding: "1rem",
-          }}
-        >
-          {/* Add your nav links here */}
-          <a href="/" style={{ marginRight: "1rem" }}>Home</a>
-          <a href="/about">About</a>
-        </nav>
-        <div style={{ paddingTop: "70px" }}>
           {children}
-        </div>
       </body>
     </html>
   );
