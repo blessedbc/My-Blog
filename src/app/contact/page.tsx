@@ -1,3 +1,5 @@
+import GoBackButton from "../../components/GoBackButton";
+
 export default function ContactPage() {
   return (
     <main className="max-w-xl mx-auto px-4 py-16">
@@ -49,6 +51,9 @@ export default function ContactPage() {
           Send Message
         </button>
       </form>
+         <div className="min-h-screen flex flex-col items-center justify-center space-y-6">
+            <GoBackButton />
+        </div>
     </main>
   );
 }  
