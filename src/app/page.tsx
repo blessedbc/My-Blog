@@ -6,6 +6,7 @@ import GoBackButton from '@/components/GoBackButton'
 
 export default function Home() {
   const posts = getAllPosts();
+  
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
