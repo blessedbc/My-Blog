@@ -1,5 +1,6 @@
 import GoBackButton from "../../components/GoBackButton";
 export default function AboutPage() {
+  
   return (
     <main className="max-w-3xl mx-auto px-4 py-16">
       <h1 className="text-3xl font-bold mb-4">About</h1>
