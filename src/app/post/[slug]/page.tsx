@@ -58,9 +58,13 @@ export default async function PostPage({ params }: Props) {
               className="prose prose-lg max-w-none"
               dangerouslySetInnerHTML={{ __html: htmlContent }}
             />
+            
           </div>
+
         </article>
+
       </main>
+
       <Footer />
     </div>
   );
