@@ -53,6 +53,7 @@ export default function ContactPage() {
         </button>
       </form>
          <div className="min-h-screen flex flex-col items-center justify-center space-y-6">
+          
             <GoBackButton />
         </div>
     </main>
