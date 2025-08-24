@@ -9,6 +9,7 @@ export default function AboutPage() {
         My goal is to help others learn and grow in the tech world. Thanks for visiting!
       </p>
          <div className="min-h-screen flex flex-col items-center justify-center space-y-6">
+          
       <GoBackButton />
     </div>
     </main>
