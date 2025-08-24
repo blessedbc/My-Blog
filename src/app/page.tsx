@@ -26,8 +26,11 @@ export default function Home() {
           </h2>
           <PostList posts={posts} />
         </div>
+
       </main> 
+      
       <Footer />
+
     </div>
   );
 }
